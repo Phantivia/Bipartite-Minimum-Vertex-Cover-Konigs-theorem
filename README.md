@@ -30,7 +30,6 @@ A Python implementation of finding the Minimum Vertex Cover of a Bipartite Graph
             bfs_alternating_paths(u, Z, find_match=False)
 
         K = set(L) - Z | set(R) & Z
-        maximum_independent_set = set(G) - K
         return K
 
     # Create a bipartite graph
