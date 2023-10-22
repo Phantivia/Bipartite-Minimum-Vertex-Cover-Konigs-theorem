@@ -23,5 +23,4 @@ def bipartite_minimum_vertex_cover(G:nx.Graph):
         bfs_alternating_paths(u, Z, find_match=False)
 
     K = set(L) - Z | set(R) & Z
-    maximum_independent_set = set(G) - K
     return K
