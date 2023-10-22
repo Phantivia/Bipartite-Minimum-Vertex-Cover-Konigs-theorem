@@ -4,7 +4,7 @@ A Python implementation of finding the Minimum Vertex Cover of a Bipartite Graph
 
 
 ## Usage Example
-'''python
+```python
 import networkx as nx
 def bipartite_minimum_vertex_cover(G:nx.Graph):
 
@@ -42,7 +42,7 @@ G.add_edges_from([[1,3], [2,4], [2,3], [2,5], [6,3], [7,3], [7,5], [7,8]])  # Ad
 print(bipartite_minimum_vertex_cover(G))
 # Output:
 # {2, 3, 7}
-'''
+```
 
 ![Example Graph](./example.png)
 
