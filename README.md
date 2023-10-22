@@ -38,11 +38,12 @@ A Python implementation of finding the Minimum Vertex Cover of a Bipartite Graph
     G.add_nodes_from([4,3,5,8], bipartite=1)  # Set the right set of nodes
     G.add_edges_from([[1,3], [2,4], [2,3], [2,5], [6,3], [7,3], [7,5], [7,8]])  # Add edges
 
-    print(bipartite_minimum_vertex_cover(G))
+    minimum_vertex_cover = bipartite_minimum_vertex_cover(G)
+    print(minimum_vertex_cover)
     # Output:
     # {2, 3, 7}
 
-    maximum_independent_set = set(G) - K
+    maximum_independent_set = set(G) - minimum_vertex_cover
     print(maximum_independent_set)
     # Output:
     # {1, 4, 5, 6, 8}
