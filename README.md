@@ -1,6 +1,6 @@
 # Bipartite Minimum Vertex Cover
 
-A Python implementation of finding the Minimum Vertex Cover of a Bipartite Graph with python & networkx using [Kőnig's theorem](https://en.wikipedia.org/wiki/K%C5%91nig%27s_theorem_(graph_theory) "Wiki Page"). You can then calculate the Maximun Independent Set if needed.
+A Python implementation of finding the Minimum Vertex Cover of a Bipartite Graph with python & networkx using [Kőnig's theorem](https://en.wikipedia.org/wiki/K%C5%91nig%27s_theorem_(graph_theory) "Wiki Page"). You can then calculate the Maximum Independent Set if needed.
 
 
 ## Usage Example
